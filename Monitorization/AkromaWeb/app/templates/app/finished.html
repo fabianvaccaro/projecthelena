@@ -1,0 +1,23 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<br />
+
+<div class="jumbotron finished_container">
+    <p>
+        ¡Exito!
+    </p>
+    <p>
+        La sesión ha acabado, recuerda volver a encenderme cuando sea necesario.
+    </p>
+</div>
+
+
+
+{% endblock %}
+
+{% load static %}
+{% block scripts %}
+<script src="{% static 'app/scripts/finished.js' %}"></script>
+{% endblock %}

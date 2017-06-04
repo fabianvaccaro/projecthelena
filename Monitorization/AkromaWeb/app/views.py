@@ -14,33 +14,31 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home Page',
+            'title':'Inicio',
             'year':datetime.now().year,
         }
     )
 
-def contact(request):
-    """Renders the contact page."""
+def start_mon(request):
+    """Renders the home page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/contact.html',
+        'app/mon.html',
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'Monitorizando',
             'year':datetime.now().year,
         }
     )
 
-def about(request):
-    """Renders the about page."""
+def finished(request):
+    """Renders the home page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/about.html',
+        'app/finished.html',
         {
-            'title':'About',
-            'message':'Your application description page.',
+            'title':'Terminado',
             'year':datetime.now().year,
         }
     )

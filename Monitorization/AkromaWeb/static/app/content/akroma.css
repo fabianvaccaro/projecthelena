@@ -1,0 +1,28 @@
+.LargeMonitorizationBtn {
+    min-width: 100%;
+    text-align: center;
+    min-height: 8em;
+    font-size : large;
+    font-weight : bold;
+}
+
+.mon_container{
+    background-color : darkmagenta;
+    font-size : 5em;
+    font-family : Courier New, Courier, monospace;
+    font-weight : bold;
+    min-width : 100%;
+    text-align:center;
+    color : aliceblue;
+}
+
+#mon_clock{
+
+}
+
+.finished_container{
+    text-align : center;
+    font-size : 2em;
+    background-color :blue;
+    color: aliceblue;
+}
